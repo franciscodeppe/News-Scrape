@@ -6,7 +6,8 @@
 var express = require("express");
 var mongojs = require("mongojs");
 var bodyParser = require("body-parser");
-var logger = require("morgan");
+var request = require("request");
+var cheerio = require("cheerio");
 
 var app = express();
 
