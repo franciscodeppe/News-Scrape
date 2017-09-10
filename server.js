@@ -12,7 +12,6 @@ var cheerio = require("cheerio");
 var app = express();
 
 // Set the app up with morgan, body-parser, and a static folder
-app.use(logger("dev"));
 app.use(bodyParser.urlencoded({
   extended: false
 }));
